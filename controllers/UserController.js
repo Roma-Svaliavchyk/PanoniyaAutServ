@@ -63,7 +63,7 @@ export const login = async (req, res) =>{
     
         if(!isValidPass){
             return res.status(400).json({
-                massage: 'Хибна пошта або пароль!',
+                message: 'Хибна пошта або пароль!',
             });
         }
         

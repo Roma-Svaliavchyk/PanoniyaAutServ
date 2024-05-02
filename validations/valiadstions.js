@@ -44,7 +44,7 @@ export const registerValidation = [
             throw new Error('Номер не може містити букви!');
         }
         if (!isValidLength) {
-            throw new Error('Довжина номеру закоротка!');
+            throw new Error('Некоректний номер телефону!');
         }
         return true;
     }),

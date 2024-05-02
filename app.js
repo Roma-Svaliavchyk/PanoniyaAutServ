@@ -5,11 +5,8 @@ import cors from 'cors';
 
 import checkAuth from './utils/checkAuth.js';
 
-//import * as valiadstions from './validations/valiadstions.js';
-
 import { loginValidation, postCreateValidation, registerValidation, orderCreateValidation } from './validations/valiadstions.js';
 
-//import * as validations from './validations/valiadstions.js';
 import * as UserController from './controllers/UserController.js';
 import * as PostController from './controllers/PostController.js'; 
 import * as OrderController from './controllers/OrderController.js';
